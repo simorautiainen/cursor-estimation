@@ -1,0 +1,2 @@
+add_subdirectory(SFMLTools)
+add_subdirectory(Kalman)
