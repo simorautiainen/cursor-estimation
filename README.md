@@ -45,4 +45,5 @@ Depending on how we initialize the F, Q and H we can estimate different phenomen
 ### Velocity model
 
 I don't have enough education on systems and control theory I could explain
-how the matrixes are formulated but they atleast seem to work :D
+how the matrixes are formulated but they atleast seem to work :D This
+is going to change since I'm taking control theory courses.
