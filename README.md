@@ -34,6 +34,9 @@ The actual software is much smoother than the gif since it has unlimited fps
 ![Demo](./images/kalman.gif)
 
 
+A demo is also at [youtube](https://www.youtube.com/watch?v=pxXbFduKZm0)
+, but it conveys the same information as the gif
+
 ## Kalman filter
 
 [Kalman filterering](https://en.wikipedia.org/wiki/Kalman_filter) is a algorithm to estimate a phenomenom from noisy measurements. A basic block
