@@ -14,10 +14,10 @@ struct StateAndCovariance {
 };
 
 /**
- * @brief the kalman filter base class. Idea is to have a generic predict and
- * update steps and the derived class will implement a correct constructor where
- * the matrices are initialized accordingly to the physics what the model is
- * trying to model
+ * @brief the kalman filter base class (no control inputs). Idea is to have a
+ * generic predict and update steps and the derived class will implement a
+ * correct constructor where the matrices are initialized accordingly to the
+ * physics what the model is trying to model
  */
 class KalmanFilter {
    public:

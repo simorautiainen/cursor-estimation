@@ -20,14 +20,6 @@ class VelocityKalmanFilter : public KalmanFilter {
 
     /**
      * @brief calls the kalman filters predict and update steps based on given
-     * data
-     * @param data the newest data point
-     * @returns the new state of the model
-     */
-    StateAndCovariance step(const MeasurementData& data);
-
-    /**
-     * @brief calls the kalman filters predict and update steps based on given
      * data and edits the state transition matrix with timeDelta, so the time
      * between points is correct. This allows us to have arbitary time between
      * the measured points, and we don't need a static measurement rate
