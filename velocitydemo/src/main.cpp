@@ -39,6 +39,7 @@ int main() {
 
     filtersAndLines.push_back(FilterAndLine(
         std::move(noisyModel), LineDrawer{renderTexture, sf::Color::Green}));
+
     filtersAndLines.push_back(
         FilterAndLine{std::move(lessNoisyModel),
                       LineDrawer{renderTexture, sf::Color::Yellow}});
@@ -46,6 +47,7 @@ int main() {
     filtersAndLines.push_back(
         FilterAndLine{std::move(evenMoreNoisyModel),
                       LineDrawer{renderTexture, sf::Color::Magenta}});
+
     filtersAndLines.push_back(FilterAndLine{
         std::move(noisiestModel), LineDrawer{renderTexture, sf::Color::Blue}});
 
