@@ -4,6 +4,12 @@ This repo contains applications for following cursor position. *(currently only 
 actually know how the systems are formulated, but no matter because it seems
 to work :D)
 
+This repo is supposed to have multiple applications which are coming in the
+future as I get more acquainted with kalman filters first, then will
+do a extended kalman filter, uncented kalman filter, particle filter and 
+neural networks and other models. **Goal is to determine which model
+is best for tracking noisy cursor**.
+
 This is a vscode project with vscode cmake-tools and c++ extensions you can
 easily run the **VelocityDemo**  by just pressing one button and running it.
 
