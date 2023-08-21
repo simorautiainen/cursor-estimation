@@ -1,4 +1,3 @@
-find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
 find_package(Eigen3 REQUIRED)
 
 # Create a library from your application's sources
